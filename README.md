@@ -1,3 +1,7 @@
+# 采用ionic开发
+![ABC](https://github.com/qq756585379/YJApp/blob/master/1.gif)
+![ABC](https://github.com/qq756585379/YJApp/blob/master/2.gif)
+
 # Gulp
 
 ## 当下的前端开发
