@@ -5,17 +5,12 @@
   border: 0;
   background-image: none;
 }
-
 #home .has-header{
   top: 0;
 }
-
-
 #home ion-content{
   overflow:scroll;
-
 }
-
 /*头部搜索栏*/
 #home .headerBar {
   background-color: transparent;
@@ -78,7 +73,6 @@
   margin-left: 5px;
   margin-top: 3px;
 }
-
 #home .headerBar-search div{
   display:inline-block;
   height:100%;
@@ -232,7 +226,6 @@
   width:33.3%;
   float:left;
 }
-
 #home .centent-bottom li img{
   display:block;
   border-right:1px solid #e6e6e6;
@@ -257,12 +250,10 @@
   text-align: center;
   margin-top: 5px;
 }
-
 #home .ad ion-slide img {
   height: 15%;
   width: 100%;
 }
-
 /*商品展示*/
 #home .floor{
   margin:0 5px 5px;
@@ -301,7 +292,6 @@
   border-right:1px solid #eee;
   margin-left:-1px;
 }
-
 /*回到头部滚动条*/
 #home .back_top{
   width: 35px;

@@ -10,9 +10,10 @@ angular.module('guidePage.controller', ['guidePage.service'])
 
     //引导页slide初始化
     var guideSlide = new Swiper('#guideSlide', {
+      //获取页面的<div class="swiper-pagination"></div>标签
       pagination: '.swiper-pagination',
       onSlideChangeEnd: function(swiper){
-        var index = guideSlide.activeIndex+1;
+        var index = guideSlide.activeIndex+1;//activeIndex 从0开始
         if(index==2||index==3){
           var item = $("#tips-"+index);
           if(item.hasClass("hidden")){

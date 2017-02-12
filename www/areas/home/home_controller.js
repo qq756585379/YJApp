@@ -11,7 +11,6 @@ angular.module('home.controller', ['home.service'])
       goTop();
     });
 
-
     // 头部滚动条数据
     function getHeaderSlideData(){
       $scope.headerSlideData=[
@@ -47,7 +46,7 @@ angular.module('home.controller', ['home.service'])
         loop: true,
         // 如果需要分页器
         pagination: '.swiper-pagination',
-        // 改变自动更新
+        // 改变自动更新,当我们动态修改swiper的时候，他会自动初始化创建swiper对象
         observer:true,
         observeParents:true
       });
@@ -92,7 +91,6 @@ angular.module('home.controller', ['home.service'])
         bg.scrollTop = 0;
       }
     };
-
 
   })
 
